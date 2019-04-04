@@ -10,6 +10,7 @@ const Globals = createGlobalStyle`
   --teal: #018790;
   --blue: #0a516d;
   --granite: #2b2726;
+  --cream: #fffeec;
 
   --size1: calc(8 / 1680 * 100vw);
   --size2: calc(16 / 1680 * 100vw);
