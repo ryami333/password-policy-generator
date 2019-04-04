@@ -78,7 +78,7 @@ html, body {
 }
 
 body {
-  padding: var(--size2);
+  padding: var(--size6) var(--size2);
 }
 
 // Box sizing
