@@ -57,12 +57,17 @@ const Globals = createGlobalStyle`
   --color: var(--granite);
   --lineHeight: var(--lineHeightMed);
 
+  --fontFamilyHeading: Oswald;
+  --fontWeightHeading: lighter;
+
+  --fontFamilyBody: Lato;
+  --fontWeightBody: normal;
+
   --color: var(--granite);
   --fontSize: var(--size3);
   --lineHeight: var(--lineHeightMed);
-  --fontFamily: var(--todo);
-  --fontStyle: todo;
-  --fontWeight: todo;
+  --fontFamily: var(--fontFamilyBody);
+  --fontWeight: var(--fontWeightBody);
 }
 
 html, body {
@@ -114,6 +119,10 @@ const Layout: React.FunctionComponent<Props> = ({
       <title>Password Policy Generator</title>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato|Oswald"
+        rel="stylesheet"
+      />
     </Helmet>
     <Globals />
     {children}

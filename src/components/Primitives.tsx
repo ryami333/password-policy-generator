@@ -6,8 +6,8 @@ const primitives = css`
   font-size: var(--fontSize);
   line-height: var(--lineHeight);
   font-family: var(--fontFamily);
-  font-style: var(--fontStyle);
-  font-weight: var(--fontWeight);
+  font-style: var(--fontStyle, normal);
+  font-weight: var(--fontWeight, normal);
 `;
 
 export const Span = styled.span`
@@ -52,6 +52,30 @@ const linkStyles = css`
   &:visited {
     color: var(--color);
   }
+`;
+
+const headingStyles = css`
+  ${primitives};
+  --fontFamily: var(--fontFamilyHeading);
+  --fontWeight: var(--fontWeightHeading);
+`;
+
+export const H1 = styled.h1`
+  ${headingStyles};
+  --fontSize: var(--size5);
+}
+`;
+
+export const H2 = styled.h2`
+  ${headingStyles};
+  --fontSize: var(--size4);
+}
+`;
+
+export const H3 = styled.h3`
+  ${headingStyles};
+  --fontSize: var(--size3);
+}
 `;
 
 export const A = styled.a`
