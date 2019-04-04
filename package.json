@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^2.3.11",
+    "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "reset.css": "^2.0.2",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/lodash": "^4.14.123",
     "@types/react-helmet": "^5.0.8",
     "@types/styled-components": "4.1.8",
     "@types/uuid": "^3.4.4",
