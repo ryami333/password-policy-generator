@@ -29,7 +29,7 @@ export default function Index(): React.ReactElement {
 					<Ul>
 						{policies.map(
 							(policy: Policy): React.ReactElement => (
-								<Li>{printPolicy(policy, random(0, 5))}</Li>
+								<Li>{printPolicy(policy)}</Li>
 							)
 						)}
 					</Ul>
