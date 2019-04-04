@@ -12,8 +12,10 @@ const policies: Policy[] = [
 		`${qty} embarassing ${qty === 1 ? "secret" : "secrets"}`,
 	(qty: number = random(1, 3)): string =>
 		`${qty} harsh ${qty === 1 ? "truth" : "truths"}`,
-	(qty: number = random(1, 3)) =>
-		`${qty} deep-seated ${qty === 1 ? "insecurity" : "insecurities"}`
+	(qty: number = random(1, 3)): string =>
+		`${qty} deep-seated ${qty === 1 ? "insecurity" : "insecurities"}`,
+	(qty: number = random(1, 3)): string => `at least ${qty} bucket-list items`,
+	(): string => `50 shades of gray`
 ];
 
 export default policies;
