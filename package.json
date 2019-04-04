@@ -11,7 +11,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-    "typecheck": "tsc .",
+    "typecheck": "tsc --project tsconfig.json",
     "typecheck:watch": "typecheck --watch"
   },
   "dependencies": {
