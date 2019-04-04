@@ -33,11 +33,12 @@ export const Label = styled.label`
 
 export const Button = styled.button`
   background-color: var(--granite);
-  color: var(--cream);
-  padding: var(--size2) var(--size2);
+  color: var(--orange);
+  padding: var(--size2) var(--size3);
   outline: none;
   border: none;
   font-size: var(--size3);
+  border-radius 3px;
   // font-family: 'todo';
   cursor: pointer;
 `;
