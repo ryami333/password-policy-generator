@@ -56,6 +56,13 @@ const Globals = createGlobalStyle`
 
   --color: var(--granite);
   --lineHeight: var(--lineHeightMed);
+
+  --color: var(--granite);
+  --fontSize: var(--size3);
+  --lineHeight: var(--lineHeightMed);
+  --fontFamily: var(--todo);
+  --fontStyle: todo;
+  --fontWeight: todo;
 }
 
 html, body {
@@ -63,7 +70,6 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: var(--orange);
-  font-size: var(--size3);
 }
 
 body {
