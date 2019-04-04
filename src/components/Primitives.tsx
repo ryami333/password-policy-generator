@@ -25,6 +25,9 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
   ${primitives};
+  & + & {
+    margin-top: var(--size1);
+  }
 `;
 
 export const Label = styled.label`

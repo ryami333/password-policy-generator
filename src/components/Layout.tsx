@@ -51,8 +51,8 @@ const Globals = createGlobalStyle`
   }
 
   --lineHeightMin: 1;
-  --lineHeightMed: 1.1;
-  --lineHeightMax: 1.3;
+  --lineHeightMed: 1.2;
+  --lineHeightMax: 1.5;
 
   --color: var(--granite);
   --lineHeight: var(--lineHeightMed);
