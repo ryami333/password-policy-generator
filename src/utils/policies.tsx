@@ -6,6 +6,7 @@ export type Policies = Policy[];
 
 const policies: Policy[] = [
 	(qty: number = random(5, 20, true)): string => `$${qty.toFixed(2)} USD`,
+	(): string => `the word “p4ssw0rd”`,
 	(): string => `two pints of lager and a bag of crisps`,
 	(): string => `the name of your favourite child`,
 	(): string => `your father’s middle name`,
