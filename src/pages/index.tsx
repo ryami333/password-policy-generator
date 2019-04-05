@@ -20,7 +20,8 @@ export default function Index(): React.ReactElement {
 			<Container>
 				<H1>Password Policy Generator</H1>
 				<P>
-					Click the button to generate a password policy for your sign-up flow.
+					Click the button to generate a secure password policy for your sign-up
+					flow.
 				</P>
 				<div>
 					<Button onClick={randomize}>Generate</Button>
